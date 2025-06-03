@@ -17,6 +17,13 @@ You can apply the patch in one of two ways:
 > 
 > Under Algorithm, select your custom DLL from the dropdown list.
 
+Using this project, you can also view the adapter pinout by selecting a chip for the desired adapter and then clicking "Read".
+This will trigger the Pin Detect error, which reveals all the necessary pin connections for the chip.
+However, it does not display the resistors and capacitors required for stabilization and filtering.
+In my case, this led to inconsistent readings. 
+
+
+
 
 Credits
 GUI credits: https://github.com/noahware/external-overlay
